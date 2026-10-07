@@ -18,9 +18,9 @@ This repository reproduces the main count-level RNA-seq and microarray analyses 
 
 ### Gilad Lab public Box archive
 
-**Files retained:** `data/gilad/AffyOut.txt`, `SupplementaryTable1.txt`, and `lane_designations.xls`, obtained from the [public archive](https://uchicago.app.box.com/s/agtdriffs54q7woo9eh5ojnp1945gtwt).
+**Files retained:** `data/gilad/SupplementaryTable1.txt` and `lane_designations.xls`, obtained from the [public archive](https://uchicago.app.box.com/s/agtdriffs54q7woo9eh5ojnp1945gtwt).
 
-**Contents:** The two lane-metadata files identify tissue, run, RNA concentration, and lane structure. `AffyOut.txt` is the authors' processed microarray output and is retained for cross-checking.
+**Contents:** The two lane-metadata files identify tissue, run, RNA concentration, and lane structure.
 
 ## Results to replicate
 
@@ -34,7 +34,7 @@ This repository reproduces the main count-level RNA-seq and microarray analyses 
 
 **What it shows:** RNA-seq read counts and microarray expression intensities are positively correlated in kidney and liver.
 
-**Data needed:** `SupplementaryTable2.txt`, the six GEO CEL files, and shared gene identifiers. `SupplementaryTable3.txt` and `AffyOut.txt` are used for cross-checking.
+**Data needed:** `SupplementaryTable2.txt`, the six GEO CEL files, and shared gene identifiers. `SupplementaryTable3.txt` is used for cross-checking.
 
 ### Figure 4: liver-versus-kidney fold changes across platforms
 
